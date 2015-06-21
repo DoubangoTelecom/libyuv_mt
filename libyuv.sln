@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libyuv", "libyuv.vcproj", "{D1EEC0D0-7873-4713-8B1F-FFB56E7927B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|GE vPC WEC7 SDK (x86) = Debug|GE vPC WEC7 SDK (x86)
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|GE vPC WEC7 SDK (x86) = Release|GE vPC WEC7 SDK (x86)
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1EEC0D0-7873-4713-8B1F-FFB56E7927B8}.Debug|GE vPC WEC7 SDK (x86).ActiveCfg = Debug|GE vPC WEC7 SDK (x86)
+		{D1EEC0D0-7873-4713-8B1F-FFB56E7927B8}.Debug|GE vPC WEC7 SDK (x86).Build.0 = Debug|GE vPC WEC7 SDK (x86)
+		{D1EEC0D0-7873-4713-8B1F-FFB56E7927B8}.Debug|GE vPC WEC7 SDK (x86).Deploy.0 = Debug|GE vPC WEC7 SDK (x86)
+		{D1EEC0D0-7873-4713-8B1F-FFB56E7927B8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D1EEC0D0-7873-4713-8B1F-FFB56E7927B8}.Debug|Win32.Build.0 = Debug|Win32
+		{D1EEC0D0-7873-4713-8B1F-FFB56E7927B8}.Debug|x64.ActiveCfg = Debug|x64
+		{D1EEC0D0-7873-4713-8B1F-FFB56E7927B8}.Debug|x64.Build.0 = Debug|x64
+		{D1EEC0D0-7873-4713-8B1F-FFB56E7927B8}.Release|GE vPC WEC7 SDK (x86).ActiveCfg = Release|GE vPC WEC7 SDK (x86)
+		{D1EEC0D0-7873-4713-8B1F-FFB56E7927B8}.Release|GE vPC WEC7 SDK (x86).Build.0 = Release|GE vPC WEC7 SDK (x86)
+		{D1EEC0D0-7873-4713-8B1F-FFB56E7927B8}.Release|GE vPC WEC7 SDK (x86).Deploy.0 = Release|GE vPC WEC7 SDK (x86)
+		{D1EEC0D0-7873-4713-8B1F-FFB56E7927B8}.Release|Win32.ActiveCfg = Release|Win32
+		{D1EEC0D0-7873-4713-8B1F-FFB56E7927B8}.Release|Win32.Build.0 = Release|Win32
+		{D1EEC0D0-7873-4713-8B1F-FFB56E7927B8}.Release|x64.ActiveCfg = Release|x64
+		{D1EEC0D0-7873-4713-8B1F-FFB56E7927B8}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
