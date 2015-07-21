@@ -11,6 +11,12 @@
 #ifndef INCLUDE_LIBYUV_H_  // NOLINT
 #define INCLUDE_LIBYUV_H_
 
+// Headers from Doubango Telecom
+#include "libyuv/yuv_config.h"
+#include "libyuv/yuv_debug.h"
+#include "libyuv/yuv_time.h"
+
+// Headers from Google
 #include "libyuv/basic_types.h"
 #include "libyuv/compare.h"
 #include "libyuv/convert.h"

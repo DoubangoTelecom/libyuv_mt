@@ -16,7 +16,9 @@
 #if defined(__ANDROID__) || (defined(_MSC_VER) && (_MSC_VER < 1600) && !defined(_WIN32_WCE))
 #include <sys/types.h>  // for uintptr_t on x86
 #else
-#include <stdint.h>  // for uintptr_t
+#if !defined(_WIN32_WCE)
+#	include <stdint.h>  // for uintptr_t
+#endif
 #endif
 
 #ifndef GG_LONGLONG
