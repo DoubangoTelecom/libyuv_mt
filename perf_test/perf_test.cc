@@ -13,6 +13,9 @@
 * You should have received a copy of the GNU General Public License
 * along with DOUBANGO.
 */
+
+// http://lestourtereaux.free.fr/papers/data/yuvrgb.pdf
+
 #if defined(WIN32)|| defined(_WIN32) || defined(_WIN32_WCE)
 #include <windows.h>
 #endif
@@ -76,7 +79,7 @@ static void YuvFillSamples(uint8 *ptr, size_t size)
 {
 	for (size_t i = 0; i < size; ++i)
 	{
-		ptr[i] = rand() % 10;
+		ptr[i] = rand() % 0xFF;
 	}
 }
 
@@ -106,7 +109,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	{
 		for (size_t index = 0; index < YUV_LOOP_COUNT; ++index)
 		{
-			ret = libyuv::ConvertToI420(inPtr, inSize,
+ 			ret = libyuv::ConvertToI420(inPtr, inSize,
 				&outPtr[YUV_Y_START], YUV_Y_STRIDE,
 				&outPtr[YUV_U_START], YUV_U_STRIDE,
 				&outPtr[YUV_V_START], YUV_V_STRIDE,

@@ -65,7 +65,7 @@ typedef int (*YUVDebugFuncPtr)(const void* arg, const char* fmt, ...);
 
 
 	/* FATAL */
-#define YUVDebugFuncPtrATAL(FMT, ...) 		\
+#define YUV_DEBUG_FATAL(FMT, ...) 		\
 	if (libyuv::YUVDebugGetLevel() >= libyuv::YUV_DEBUG_LEVEL_FATAL) { \
 		if (libyuv::YUVDebugGetFatalCallback()) \
 			libyuv::YUVDebugGetFatalCallback()(libyuv::YUVDebugGetArgData(), "****[DOUBANGO FATAL]: function: \"%s()\" \nfile: \"%s\" \nline: \"%u\" \nMSG: " FMT "\n", __FUNCTION__,  __FILE__, __LINE__, ##__VA_ARGS__); \

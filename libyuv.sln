@@ -8,6 +8,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "perf_test", "perf_test\perf
 		{D1EEC0D0-7873-4713-8B1F-FFB56E7927B8} = {D1EEC0D0-7873-4713-8B1F-FFB56E7927B8}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fast_yuv", "fast_yuv\fast_yuv.vcproj", "{542718AE-4E5A-487C-8F29-ED7B0A6E9F71}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D1EEC0D0-7873-4713-8B1F-FFB56E7927B8} = {D1EEC0D0-7873-4713-8B1F-FFB56E7927B8}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|GE vPC WEC7 SDK (x86) = Debug|GE vPC WEC7 SDK (x86)
@@ -44,6 +49,18 @@ Global
 		{B868FAC4-F01F-4AE0-8FD2-DD20E800F7CF}.Release|Win32.Build.0 = Release|Win32
 		{B868FAC4-F01F-4AE0-8FD2-DD20E800F7CF}.Release|x64.ActiveCfg = Release|x64
 		{B868FAC4-F01F-4AE0-8FD2-DD20E800F7CF}.Release|x64.Build.0 = Release|x64
+		{542718AE-4E5A-487C-8F29-ED7B0A6E9F71}.Debug|GE vPC WEC7 SDK (x86).ActiveCfg = Debug|GE vPC WEC7 SDK (x86)
+		{542718AE-4E5A-487C-8F29-ED7B0A6E9F71}.Debug|GE vPC WEC7 SDK (x86).Build.0 = Debug|GE vPC WEC7 SDK (x86)
+		{542718AE-4E5A-487C-8F29-ED7B0A6E9F71}.Debug|GE vPC WEC7 SDK (x86).Deploy.0 = Debug|GE vPC WEC7 SDK (x86)
+		{542718AE-4E5A-487C-8F29-ED7B0A6E9F71}.Debug|Win32.ActiveCfg = Debug|Win32
+		{542718AE-4E5A-487C-8F29-ED7B0A6E9F71}.Debug|Win32.Build.0 = Debug|Win32
+		{542718AE-4E5A-487C-8F29-ED7B0A6E9F71}.Debug|x64.ActiveCfg = Debug|Win32
+		{542718AE-4E5A-487C-8F29-ED7B0A6E9F71}.Release|GE vPC WEC7 SDK (x86).ActiveCfg = Release|GE vPC WEC7 SDK (x86)
+		{542718AE-4E5A-487C-8F29-ED7B0A6E9F71}.Release|GE vPC WEC7 SDK (x86).Build.0 = Release|GE vPC WEC7 SDK (x86)
+		{542718AE-4E5A-487C-8F29-ED7B0A6E9F71}.Release|GE vPC WEC7 SDK (x86).Deploy.0 = Release|GE vPC WEC7 SDK (x86)
+		{542718AE-4E5A-487C-8F29-ED7B0A6E9F71}.Release|Win32.ActiveCfg = Release|Win32
+		{542718AE-4E5A-487C-8F29-ED7B0A6E9F71}.Release|Win32.Build.0 = Release|Win32
+		{542718AE-4E5A-487C-8F29-ED7B0A6E9F71}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
